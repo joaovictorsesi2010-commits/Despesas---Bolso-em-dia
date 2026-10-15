@@ -1,0 +1,43 @@
+.registrar-servico {
+    background-color: var(--branco);
+    border: 1px solid var(--cinza-claro);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.icone-titulo {
+    width: 65px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: var(--verde-clarinho);
+    border-radius: 10px;
+}
+
+.titulo-info {
+    margin-left: 20px;
+}
+
+.texto {
+    display: flex;
+}
+
+.asteristico {
+    margin-left: 5px;
+    color: var(--vermelho);
+}
+
+.servico-realizado input {
+    width: 100%;
+    font-size: 11px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 6px;
+
+}
