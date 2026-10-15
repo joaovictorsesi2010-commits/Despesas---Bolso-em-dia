@@ -27,7 +27,7 @@
 
                 <a href="#">
                     <img src="static/uploads/perfil-despesas.png" alt="">
-                    <span><b>Despesas</b></span>
+                    <span>Despesas</span>
                 </a>
 
                 <a href="#">
@@ -35,9 +35,9 @@
                     <span>Dia Trabalhado</span>
                 </a>
 
-                <a href="#">
-                    <img src="static/uploads/perfil-servico-extra.png" alt="">
-                    <span>Serviço Extra</span>
+                <a href="#" class="servico-extra-menu">
+                    <img src="static/uploads/perfil-servico-extra-verde.png" alt="">
+                    <span><b>Serviço Extra</b></span>
                 </a>
 
                 <a href="#">
@@ -95,13 +95,60 @@
                     <p>Serviço realizado</p>
                     <p class="asteristico">*</p>
                 </div>
-                <input type="text" placeholder="Buscar despesas por descrição...">
+                <input type="text" placeholder="Ex: Manutenção,  Pintura, Instalação, Consultoria, etc">
             </div>
+
+            <div class="valor-e-data">
+                <div class="valor-recebido">
+                    <div class="texto">
+                        <p>Valor recebido</p>
+                        <p class="asteristico">*</p>
+                    </div>
+                    <div class="input-com-bloco">
+                        <span class="bloco-input">R$</span>
+                        <input type="text" placeholder="0,00">
+                    </div>
+                </div>
+
+                <div class="valor-recebido">
+                    <div class="texto">
+                        <p>Data</p>
+                        <p class="asteristico">*</p>
+                    </div>
+                    <div class="input-com-bloco">
+                        <span class="bloco-input">
+                            <img src="static/uploads/perfil-dia-trabalhado.png" alt="icone de calendário">
+                        </span>
+                        <input type="text" placeholder="dd/mm/aaaa">
+                    </div>
+                </div>
+            </div>
+
+            <div class="descricao-servico">
+                <div class="texto">
+                    <p>Descrição do serviço</p>
+                </div>
+                <div class="input-com-bloco">
+                    <span class="imagem-input">
+                        <img src="static/uploads/pasta-escrita-cinza-claro.png" alt="icone de calendário">
+                    </span>
+                    <input type="text" placeholder="Descreva os detalhes do serviço extra...">
+                        <img class="imagem-canto" src="static/uploads/riscos-canto.png" alt="icone de calendário">
+                </div>
+                <p class="caracteres">0/500</p>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-cancelar" type="button">
+                    <span>Cancelar</span>
+                </button>
+
+                <button class="btn-registrar" type="button">
+                    <span>Registrar</span>
+                </button>
+            </div>
+
         </div>
-
-
-
-
     </main>
 </body>
 </html>
